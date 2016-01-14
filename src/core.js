@@ -8,9 +8,8 @@ export function whatsOn(server) {
   return new Promise(function (resolve, reject) {
 		  getServers().then(function(servers){
         const match = find(servers, {'name':server});
-        if(!match){
-          console.log(red(underline(server) + " was not found"));
-          reject("no match");
+        if(!match){          
+          reject(underline(server) + " was not found");
         }
         // if exists make call to get applications
       })

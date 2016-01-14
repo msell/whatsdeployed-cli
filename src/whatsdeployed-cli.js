@@ -14,6 +14,9 @@ if (process.argv.length < 3) {
     for (const app of apps) {
       console.log(green(app.name));
     }
+  })
+  .catch(function(err){
+    console.log(red(err));
   });
 
 }
