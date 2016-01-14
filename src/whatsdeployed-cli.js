@@ -5,13 +5,15 @@ import {argv} from 'yargs';
 import prompt from 'cli-prompt';
 import * as process from 'process';
 import {whatsOn, diff} from './core.js';
+import { sortBy } from 'lodash';
 
 if (process.argv.length < 3) {
   console.log(red("off to see the wizard..."));
 } else {
   const server = process.argv[2].toLowerCase();
-  whatsOn(server).then(function (apps) {    
-    for (let app of apps) {
+  whatsOn(server).then(function (apps) {
+ 
+    for (let app of sortBy(apps, 'package')) {
       console.log(green(app.package));
     }
   })
