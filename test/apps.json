@@ -1,0 +1,122 @@
+[
+  {
+    "id": 12571,
+    "server_id": 1,
+    "package": "WebClients-1.0.1.5-rc",
+    "active": true,
+    "created_at": "2015-12-23T08:45:26.369Z",
+    "updated_at": "2015-12-23T08:45:26.369Z"
+  },
+  {
+    "id": 12573,
+    "server_id": 1,
+    "package": "ProductFulfillment-3.1.1.6-rc",
+    "active": true,
+    "created_at": "2015-12-23T08:55:25.773Z",
+    "updated_at": "2015-12-23T08:55:25.773Z"
+  },
+  {
+    "id": 12574,
+    "server_id": 1,
+    "package": "EnterpriseServices-1.0.1.64-rc",
+    "active": true,
+    "created_at": "2015-12-23T08:59:21.203Z",
+    "updated_at": "2015-12-23T08:59:21.203Z"
+  },
+  {
+    "id": 12575,
+    "server_id": 1,
+    "package": "CallCreditAlerts-1.0.1.6-rc",
+    "active": true,
+    "created_at": "2015-12-23T08:59:33.089Z",
+    "updated_at": "2015-12-23T08:59:33.089Z"
+  },
+  {
+    "id": 12576,
+    "server_id": 1,
+    "package": "CustomerFiltering-3.1.1.4-rc",
+    "active": true,
+    "created_at": "2015-12-23T09:03:00.113Z",
+    "updated_at": "2015-12-23T09:03:00.113Z"
+  },
+  {
+    "id": 12577,
+    "server_id": 1,
+    "package": "ProductCatalog-1.0.1.2-rc",
+    "active": true,
+    "created_at": "2015-12-23T09:03:20.175Z",
+    "updated_at": "2015-12-23T09:03:20.175Z"
+  },
+  {
+    "id": 12579,
+    "server_id": 1,
+    "package": "OneTechnologies.MarketingAdmin-1.0.1.4-rc",
+    "active": true,
+    "created_at": "2015-12-23T09:03:34.432Z",
+    "updated_at": "2015-12-23T09:03:34.432Z"
+  },
+  {
+    "id": 12581,
+    "server_id": 1,
+    "package": "Aperture-1.0.1.4-rc",
+    "active": true,
+    "created_at": "2015-12-23T09:03:43.960Z",
+    "updated_at": "2015-12-23T09:03:43.960Z"
+  },
+  {
+    "id": 12582,
+    "server_id": 1,
+    "package": "Apollo-1.0.1.33-rc",
+    "active": true,
+    "created_at": "2015-12-23T09:04:25.245Z",
+    "updated_at": "2015-12-23T09:04:25.245Z"
+  },
+  {
+    "id": 12583,
+    "server_id": 1,
+    "package": "NotificationsAPI-1.0.1.4-rc",
+    "active": true,
+    "created_at": "2015-12-23T09:04:44.298Z",
+    "updated_at": "2015-12-23T09:04:44.298Z"
+  },
+  {
+    "id": 12584,
+    "server_id": 1,
+    "package": "Plutus.Billing-2.0.1.5-rc",
+    "active": true,
+    "created_at": "2015-12-23T09:04:59.115Z",
+    "updated_at": "2015-12-23T09:04:59.115Z"
+  },
+  {
+    "id": 12585,
+    "server_id": 1,
+    "package": "OneTechnologies.Publican-2.0.1.1-rc",
+    "active": true,
+    "created_at": "2015-12-23T09:05:10.570Z",
+    "updated_at": "2015-12-23T09:05:10.570Z"
+  },
+  {
+    "id": 12586,
+    "server_id": 1,
+    "package": "Plutus.Payment-1.0.1.3-rc",
+    "active": true,
+    "created_at": "2015-12-23T09:05:25.473Z",
+    "updated_at": "2015-12-23T09:05:25.473Z"
+  },
+  {
+    "id": 12587,
+    "server_id": 1,
+    "package": "CustomerCare-1.0.1.8-rc",
+    "active": true,
+    "created_at": "2015-12-23T09:05:35.230Z",
+    "updated_at": "2015-12-23T09:05:35.230Z"
+  },
+  {
+    "id": 12588,
+    "server_id": 1,
+    "package": "Plutus.Refund-3.0.1.1-rc",
+    "active": true,
+    "created_at": "2015-12-23T09:05:44.983Z",
+    "updated_at": "2015-12-23T09:05:44.983Z"
+  }
+]

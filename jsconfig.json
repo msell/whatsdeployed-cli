@@ -1,0 +1,11 @@
+{
+	"compilerOptions":{
+		"target": "ES6",
+		"module": "commonjs"
+	},
+	"files": [
+		"src/bamboo.js",
+		"src/whatsdeployed-cli.js",
+		"test/whatsdeployed.spec.js"
+	]
+}
