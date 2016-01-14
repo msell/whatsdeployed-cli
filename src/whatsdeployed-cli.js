@@ -10,9 +10,9 @@ if (process.argv.length < 3) {
   console.log(red("off to see the wizard..."));
 } else {
   const server = process.argv[2].toLowerCase();
-  whatsOn(server).then(function (apps) {
-    for (const app of apps) {
-      console.log(green(app.name));
+  whatsOn(server).then(function (apps) {    
+    for (let app of apps) {
+      console.log(green(app.package));
     }
   })
   .catch(function(err){
