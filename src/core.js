@@ -39,7 +39,7 @@ function getApplications(serverId) {
 	return new Promise(function (resolve, reject) {
 		request.get(`${url}/servers/${serverId}/deployed_apps.json`)
 			.end(function (err, res) {
-				if (err) reject(err.message); //todo: why isnt this err bubbling up?
+				if (err) reject(`Something bad happened trying to get the applications: ${err.message}`); //todo: why isnt this err bubbling up?
 
 				if (!err && res.statusCode == 200) {         
 					resolve(res.body); 
