@@ -18,7 +18,25 @@ export function whatsOn(server) {
 };
 
 export function diff (server1, server2) {
-
+  return new Promise(function (resolve, reject) {
+		  getServers()
+      .then(function(servers){
+        const match1 = find(servers, {'name':server1});
+        const match2 = find(servers, {'name':server2});
+        if(!match1){          
+          reject(underline(server1) + " was not found");
+        }
+        if(!match2){          
+          reject(underline(server2) + " was not found");
+        }
+        
+        console.log('unimplemented');
+        server1Apps = getApplications(match1.id);
+        server2Apps = getApplications(match2.id);
+        
+        resolve({server1Apps, server2Apps});        
+      })
+	});
 };
 
 
