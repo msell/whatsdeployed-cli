@@ -4,8 +4,8 @@ const should = chai.should();
 chai.use(require('chai-as-promised'));
 const sinon = require('sinon');
 
-describe('bamboo integration', () => {
-	it('should find build plans', () => {
+describe('whats deployed on dev1', () => {
+	it('should lookup server', () => {
 
 		// let ajaxStub = sinon.stub();
 		// ajaxStub.onCall(1).returns(require('./json/page1.json'));
