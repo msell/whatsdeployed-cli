@@ -63,7 +63,7 @@ else {
     for (let app of sortBy(apps, 'packageName')) {
       table.push(
         [server, app.project, app.branch, app.version]
-        )
+        );
     }
     console.log(table.toString());
   })
@@ -72,3 +72,4 @@ else {
     });
 
 }
+
