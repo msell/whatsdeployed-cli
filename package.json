@@ -1,6 +1,6 @@
 {
-  "name": "ci-cli",
-  "version": "0.1.0",
+  "name": "whatsdeployed-cli",
+  "version": "0.3.1",
   "description": "",
   "main": "whatsdeployed-cli.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/msell/whatsdeployed-cli.git"
+    "url": "git+https://github.com/OneTechLP/Internal.Tools.git"
   },
   "engines": {
     "node": "4.2.2"
@@ -22,24 +22,20 @@
   "preferGlobal": true,
   "bin": {
     "whatsdeployed": "lib/whatsdeployed-cli.js"
-  },
-  "bugs": {
-    "url": "https://github.com/msell/whatsdeployed-cli/issues"
-  },
-  "homepage": "https://github.com/msell/whatsdeployed-cli#readme",
+  },    
   "dependencies": {
-    "bamboo-api": "0.0.5",
     "chai": "^3.4.1",
     "chalk": "1.1.1",
     "cli-prompt": "0.4.2",
+    "cli-table": "0.3.1",
     "git-rev": "0.2.1",
     "lodash": "^3.10.1",
-    "superagent": "^1.4.0",
-    "yargs": "^3.29.0"
+    "superagent": "^1.4.0"
   },
   "devDependencies": {
     "babel": "^6.3.13",
     "babel-cli": "^6.1.4",
+    "babel-plugin-lodash": "2.0.1",
     "babel-plugin-rewire": "^0.1.22",
     "babel-preset-es2015": "6.1.18",
     "chai": "^3.4.1",

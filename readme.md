@@ -1,17 +1,22 @@
+To install whatsdeployed-cli 
+- clone this repo
+- navigate to the repo root
+- install via npm i -g
 
 ```
-npm run compile
-npm run watch
-npm run tdd
+npm i -g
 ```
 
 Example Usage
+```
+whatsdeployed corpdev13
 
-> whatsdeployed corpdev13
+whatsdeployed diff corpdev10 corpdev13
+```
 
+# coming soon
+Whatsdeployed locally
 > whatsdeployed local
-
-> whatsdeployed diff corpdev13 corpdev10
 
 the help wizard experience
 > whatsdeployed
