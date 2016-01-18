@@ -1,20 +1,24 @@
-import {whatsOn} from '../lib/core.js';
+import { diff, whatsOn } from '../lib/core.js';
+import { find } from 'lodash';
 import chai from 'chai';
+import { expect } from 'chai';
 const should = chai.should();
 chai.use(require('chai-as-promised'));
-const sinon = require('sinon');
 
 describe('whats deployed on dev1', () => {
 	it('should lookup server', () => {
-
-		// let ajaxStub = sinon.stub();
-		// ajaxStub.onCall(1).returns(require('./json/page1.json'));
-		// ajaxStub.onCall(2).returns(require('./json/page2.json'));
-		// ajaxStub.onCall(3).returns(require('./json/page3.json'));
-
-		const result = whatsOn('corpdev13');
-
-		return result.should.eventually.have.length(41);
+		const result = whatsOn('dev1');
+		return result.should.eventually.have.length(15);
 	});
+});
 
+describe('diff between dev1 and dev5', () => {
+  const result = diff('dev1', 'dev5');
+  it('should return the correct number of rows', () => {
+    return result.should.eventually.have.length(18);
+  });
+  
+  it('should detect different versions deployed', () => {
+          
+  });
 });

@@ -1,0 +1,5 @@
+// http://substack.net/task_automation_with_npm_run
+{
+  "whatsDeployedUrl" : "http://whatsdeployed.herokuapp.com",
+  "projectsDrive" : "D"
+}

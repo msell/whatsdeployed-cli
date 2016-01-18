@@ -23,7 +23,8 @@
   "license": "ISC",
   "preferGlobal": true,
   "bin": {
-    "whatsdeployed": "lib/whatsdeployed-cli.js"
+    "whatsdeployed": "lib/whatsdeployed-cli.js",
+    "wd": "lib/whatsdeployed-cli.js"    
   },
   "dependencies": {
     "chai": "^3.4.1",
